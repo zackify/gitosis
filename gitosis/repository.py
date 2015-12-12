@@ -18,7 +18,7 @@ class GitInitError(Exception):
 
 def init(
     path,
-    template=resource_filename('gitosis.templates', 'admin'),
+    template=resource_filename('gitosis.templates', 'user'),
     _git=None,
     ):
     """
