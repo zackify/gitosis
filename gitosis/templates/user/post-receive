@@ -1,2 +1,6 @@
 #!/bin/sh
-echo 'added to all repos!'
+echo 'checking out files'
+export files=$PWD/www
+
+mkdir -p $files
+GIT_WORK_TREE=$files git checkout -f
