@@ -1,6 +1,7 @@
 **What's different?** 
 
 This adds the ability to add hooks to every repo made with gitosis. Put hooks in `templates/user/hooks`
+After install `chmod +x gitosis/templates/user/hooks/post-receive`
 
 ==========================================================
  ``gitosis`` -- software for hosting ``git`` repositories
